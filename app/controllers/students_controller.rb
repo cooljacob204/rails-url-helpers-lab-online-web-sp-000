@@ -11,7 +11,7 @@ class StudentsController < ApplicationController
   def activate
     require 'pry'
     binding.pry
-    @student.update(active: !@Student.active)
+    @student.update(active: !@student.active)
   end
 
   private
