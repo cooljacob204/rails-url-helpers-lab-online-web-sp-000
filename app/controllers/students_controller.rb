@@ -10,7 +10,7 @@ class StudentsController < ApplicationController
   
   def activate
     @student.update(active: !@student.active)
-    redirect student_show(@student)
+    redirect show_student(@student)
   end
 
   private
