@@ -6,8 +6,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-    require 'pry'
-    binding.pry
   end
   
   def activate
