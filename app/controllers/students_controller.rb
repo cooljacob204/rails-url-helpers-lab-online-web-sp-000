@@ -6,6 +6,13 @@ class StudentsController < ApplicationController
   end
 
   def show
+        require 'pry'
+    binding.pry
+  end
+  
+  def activate
+    set_student
+    @Student.update(active: @Student.active)
   end
 
   private
