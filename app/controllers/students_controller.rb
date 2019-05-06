@@ -10,7 +10,7 @@ class StudentsController < ApplicationController
   
   def activate
     @student.update(active: !@student.active)
-    redirect_to students_path(@student)
+    redirect_to student_path(@student)
   end
 
   private
