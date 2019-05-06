@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
-        require 'pry'
+    require 'pry'
     binding.pry
   end
   
