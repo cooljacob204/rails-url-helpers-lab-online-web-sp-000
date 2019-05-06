@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    @Student.update(active: !@Student.active)
+    @student.update(active: !@Student.active)
   end
 
   private
